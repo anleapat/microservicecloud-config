@@ -11,7 +11,7 @@ mybatis:
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
 spring:
-  profile: dev
+  profiles: dev
   application:
     name: microservicecloud-config-dept-client
   datasource:
@@ -46,7 +46,7 @@ mybatis:
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
 spring:
-  profile: test
+  profiles: test
   application:
     name: microservicecloud-config-dept-client
   datasource:
